@@ -16,6 +16,7 @@
  * Copyright (C) 2021       Frédéric France         <frederic.france@netlogic.fr>
  * Copyright (C) 2021       Alexandre Spangaro      <aspangaro@open-dsi.fr>
  * Copyright (C) 2023       Joachim Küter      		<git-jk@bloxera.com>
+ * Copyright (C) 2023       Eric Seigne      		<eric.seigne@cap-rel.fr>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -1783,6 +1784,12 @@ function top_htmlhead($head, $title = '', $disablejs = 0, $disablehead = 0, $arr
 				}
 				print '">'."\n";
 			}
+		}
+
+		// Custom CSS
+		if (getDolGlobalString('MAIN_IHM_CUSTOM_CSS')) {
+			// If a custom CSS was set, we add link to the custom css php file
+			print '<link rel="stylesheet" type="text/css" href="'.DOL_URL_ROOT.'/theme/custom.css.php">'."\n";
 		}
 
 		// Output standard javascript links
