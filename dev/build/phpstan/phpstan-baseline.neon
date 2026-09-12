@@ -397,60 +397,6 @@ parameters:
 			path: ../../../htdocs/admin/hrm.php
 
 		-
-			message: '#^Loose comparison using \=\= between ''integer''\|''varchar'' and ''html'' will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 1
-			path: ../../../htdocs/admin/hrm.php
-
-		-
-			message: '#^Loose comparison using \=\= between ''integer''\|''varchar'' and ''product'' will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 1
-			path: ../../../htdocs/admin/hrm.php
-
-		-
-			message: '#^Loose comparison using \=\= between ''integer''\|''varchar'' and ''textarea'' will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 2
-			path: ../../../htdocs/admin/hrm.php
-
-		-
-			message: '#^Loose comparison using \=\= between ''integer''\|''varchar'' and ''yesno'' will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 1
-			path: ../../../htdocs/admin/hrm.php
-
-		-
-			message: '#^Loose comparison using \=\= between ''varchar'' and ''html'' will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 1
-			path: ../../../htdocs/admin/hrm.php
-
-		-
-			message: '#^Loose comparison using \=\= between ''varchar'' and ''product'' will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 1
-			path: ../../../htdocs/admin/hrm.php
-
-		-
-			message: '#^Loose comparison using \=\= between ''varchar'' and ''securekey'' will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 1
-			path: ../../../htdocs/admin/hrm.php
-
-		-
-			message: '#^Loose comparison using \=\= between ''varchar'' and ''yesno'' will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 1
-			path: ../../../htdocs/admin/hrm.php
-
-		-
-			message: '#^Loose comparison using \=\= between 1 and 1 will always evaluate to true\.$#'
-			identifier: equal.alwaysTrue
-			count: 2
-			path: ../../../htdocs/admin/hrm.php
-
-		-
 			message: '#^If condition is always true\.$#'
 			identifier: if.alwaysTrue
 			count: 1
@@ -796,48 +742,6 @@ parameters:
 			message: '#^If condition is always true\.$#'
 			identifier: if.alwaysTrue
 			count: 1
-			path: ../../../htdocs/asset/admin/setup.php
-
-		-
-			message: '#^Loose comparison using \=\= between ''accountancy_category''\|''string'' and ''accountancy_code'' will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 2
-			path: ../../../htdocs/asset/admin/setup.php
-
-		-
-			message: '#^Loose comparison using \=\= between ''accountancy_category''\|''string'' and ''html'' will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 2
-			path: ../../../htdocs/asset/admin/setup.php
-
-		-
-			message: '#^Loose comparison using \=\= between ''accountancy_category''\|''string'' and ''product'' will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 2
-			path: ../../../htdocs/asset/admin/setup.php
-
-		-
-			message: '#^Loose comparison using \=\= between ''accountancy_category''\|''string'' and ''securekey'' will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 1
-			path: ../../../htdocs/asset/admin/setup.php
-
-		-
-			message: '#^Loose comparison using \=\= between ''accountancy_category''\|''string'' and ''textarea'' will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 2
-			path: ../../../htdocs/asset/admin/setup.php
-
-		-
-			message: '#^Loose comparison using \=\= between ''accountancy_category''\|''string'' and ''yesno'' will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 2
-			path: ../../../htdocs/asset/admin/setup.php
-
-		-
-			message: '#^Loose comparison using \=\= between 1 and 1 will always evaluate to true\.$#'
-			identifier: equal.alwaysTrue
-			count: 2
 			path: ../../../htdocs/asset/admin/setup.php
 
 		-
@@ -3043,18 +2947,6 @@ parameters:
 			path: ../../../htdocs/core/class/html.formmail.class.php
 
 		-
-			message: '#^Loose comparison using \=\= between ''formemail''\|''formemailforlines''\|''formemailwithlines'' and ''formforlines'' will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 1
-			path: ../../../htdocs/core/class/html.formmail.class.php
-
-		-
-			message: '#^Loose comparison using \=\= between ''formemail''\|''formemailforlines''\|''formemailwithlines'' and ''formwithlines'' will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 1
-			path: ../../../htdocs/core/class/html.formmail.class.php
-
-		-
 			message: '#^Ternary operator condition is always false\.$#'
 			identifier: ternary.alwaysFalse
 			count: 1
@@ -3463,20 +3355,8 @@ parameters:
 			path: ../../../htdocs/core/lib/images.lib.php
 
 		-
-			message: '#^Loose comparison using \=\= between ''suppliers'' and ''fourn'' will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 3
-			path: ../../../htdocs/core/lib/invoice.lib.php
-
-		-
 			message: '#^Loose comparison using \=\= between ''suppliers'' and ''suppliers'' will always evaluate to true\.$#'
 			identifier: equal.alwaysTrue
-			count: 3
-			path: ../../../htdocs/core/lib/invoice.lib.php
-
-		-
-			message: '#^Result of \|\| is always true\.$#'
-			identifier: booleanOr.alwaysTrue
 			count: 3
 			path: ../../../htdocs/core/lib/invoice.lib.php
 
@@ -6283,12 +6163,6 @@ parameters:
 			path: ../../../htdocs/product/price.php
 
 		-
-			message: '#^Result of && is always false\.$#'
-			identifier: booleanAnd.alwaysFalse
-			count: 2
-			path: ../../../htdocs/product/price.php
-
-		-
 			message: '#^Right side of \|\| is always false\.$#'
 			identifier: booleanOr.rightAlwaysFalse
 			count: 1
@@ -7219,12 +7093,6 @@ parameters:
 			path: ../../../htdocs/public/payment/paymentok.php
 
 		-
-			message: '#^Ternary operator condition is always true\.$#'
-			identifier: ternary.alwaysTrue
-			count: 1
-			path: ../../../htdocs/public/payment/paymentok.php
-
-		-
 			message: '#^Call to function is_numeric\(\) with int will always evaluate to true\.$#'
 			identifier: function.alreadyNarrowedType
 			count: 1
@@ -7953,12 +7821,6 @@ parameters:
 		-
 			message: '#^Loose comparison using \=\= between ''edit_customer_price'' and ''edit_customer_price'' will always evaluate to true\.$#'
 			identifier: equal.alwaysTrue
-			count: 2
-			path: ../../../htdocs/societe/price.php
-
-		-
-			message: '#^Result of && is always false\.$#'
-			identifier: booleanAnd.alwaysFalse
 			count: 2
 			path: ../../../htdocs/societe/price.php
 
